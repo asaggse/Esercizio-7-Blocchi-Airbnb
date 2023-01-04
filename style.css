@@ -23,9 +23,11 @@
     width: 400px;
     height: 200px;
     border: 1px solid black;
+
+    margin: 0 auto;
 }
 
-.city-container .city-name {
+.city-name {
     position: absolute;
     top: 50%;
     left: 50%;
