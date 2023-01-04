@@ -1,23 +1,39 @@
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
+#rome {
+    background-image: url('images/rome.jpg')
+}
+
+#milan {
+    background-image: url('images/milan.jpg')
+}
+
+#naples {
+    background-image: url('images/naples.jpg')
+}
+
 .city-container {
-  position: relative;
-  height: 100vh;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: relative;
+    background-size: cover;
+
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
 }
 
-.city-container h1 {
-  position: absolute;
+.city-container .city-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
-  font-size: 50px;
-}
-
-img {
-    max-width: 300px;
-    max-height: 300px;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
 }
