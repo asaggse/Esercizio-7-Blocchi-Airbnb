@@ -28,13 +28,15 @@
 }
 
 .city-name {
+    font-family: 'Georgia', serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
-    font-size: 30px;
-    color: white;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.5);
 }
